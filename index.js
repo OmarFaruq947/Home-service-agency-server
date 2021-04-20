@@ -67,7 +67,7 @@ client.connect(err => {
       })
   })
   app.get('/Review', (req,res)=>{
-      
+
     testimonialCollection.find()
     .toArray((err,items)=>{
         res.send(items)
@@ -104,14 +104,6 @@ client.connect(err => {
 
   
   });
-
-
-
-
-
-
-
-
 
 
 
